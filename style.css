@@ -21,8 +21,13 @@ code {
     border-radius: .2em
 }
 
+p.note {
+    opacity: .7;
+    font-style: italic
+}
+
 header {
-    background-color: #CDE0E5;
+    background-color: #D9E5EF;
     padding: 1em;
 }
 
