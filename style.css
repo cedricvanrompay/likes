@@ -20,3 +20,35 @@ code {
     border: solid 1px #BBB;
     border-radius: .2em
 }
+
+header {
+    background-color: #CDE0E5;
+    padding: 1em;
+}
+
+header p.link-to-main-website a {
+    text-decoration: none;
+    color: white;
+    background-color: #5583B4;
+    padding: .2em .8em;
+}
+
+main {
+    padding: .5em;
+}
+
+@media (min-width: 80em) {
+    body {
+        max-width: none;
+        display: flex;
+        gap: 2em;
+    }
+    
+    header {
+        min-height: 100vh;
+    }
+    
+    main {
+        margin-top: 2em
+    }
+}
