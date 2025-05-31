@@ -1,0 +1,22 @@
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    max-width: 40em;
+    margin: auto;
+}
+
+a {
+    color: #13D;
+}
+
+code {
+    background-color: #EDEDED;
+    padding: .1em .2em;
+    border: solid 1px #BBB;
+    border-radius: .2em
+}
