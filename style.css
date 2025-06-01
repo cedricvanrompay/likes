@@ -8,17 +8,33 @@
 body {
     max-width: 40em;
     margin: auto;
+    background: rgb(242, 248, 255);
+    color: #333;
+}
+
+h1 {
+    font-weight: normal;
 }
 
 a {
-    color: #13D;
+    color: #FFF;
+    background-color: #6298DC;
+    padding: .2em .6em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #3C6EAE;
+}
+
+h2 {
+    font-weight: normal;
+    color: black;
+    margin-top: 1.3em;
 }
 
 code {
-    background-color: #EDEDED;
-    padding: .1em .2em;
-    border: solid 1px #BBB;
-    border-radius: .2em
+    font-weight: bold;
 }
 
 p.note {
@@ -27,19 +43,38 @@ p.note {
 }
 
 header {
-    background-color: #D9E5EF;
+    background-color: #0A528E;
+    color: white;
     padding: 1em;
+    min-width: min(100vw, 17em)
 }
 
 header p.link-to-main-website a {
     text-decoration: none;
-    color: white;
-    background-color: #5583B4;
-    padding: .2em .8em;
+    color: #1f2752;
+    background-color: #C2DEF7;
+    padding: .3em 1em;
 }
 
 main {
     padding: .5em;
+    padding-bottom: 3em;
+}
+
+main ul {
+    padding-left: 0;
+}
+
+main ul > li {
+    list-style-type: none;
+    margin: .5em 0;
+    margin-left: 1em;
+    padding: .4em;
+    /* background-color: rgba(0,30,100,.03) */
+}
+
+main > ul > li {
+    margin-left: 0;
 }
 
 @media (min-width: 80em) {
